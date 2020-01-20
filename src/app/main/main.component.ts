@@ -12,8 +12,8 @@ export class MainComponent implements OnInit {
   nbrPlatinum:number;
   nbrGold: number;
   nbrDiamond:number;
-  nbrSongByCountry:number[]=[0,0,0,0,0,0,0,0,0,0];
-  nameContries:string[]=["","","","","","","","","","",];
+  nbrSongByCountry:number[]=[];
+  nameContries:string[]=[];
   nbArtist:number;
   nbSong:number;
   nbAlbum:number;
